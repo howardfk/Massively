@@ -1,8 +1,8 @@
 {
-    "name": "massively",
-    "description": "This is Massively, a text-heavy, article-oriented theme for Ghost.",
+    "name": "massively-mod",
+    "description": "This is Massively fork, a text-heavy, article-oriented theme for Ghost.",
     "demo": "https://massively.ghost.io",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "engines": {
         "ghost": ">=3.0.0",
         "ghost-api": "v3"
