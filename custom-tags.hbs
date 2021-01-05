@@ -1,0 +1,19 @@
+{{!< default}}
+
+<main id="main">
+
+<header class="tag-header">
+    <h1>Tags</h1>
+</header>
+
+<section>
+    {{#get 'tags' limit='all' include='count.posts' order='count.posts desc'}}
+    {{#foreach tags}}
+        <a href='{{ url }}'>
+        <h2>{{ name }} <small>({{ count.posts }})</small></h2>
+        </a>
+    {{/foreach}}
+    {{/get}}
+</section>
+
+</main>
